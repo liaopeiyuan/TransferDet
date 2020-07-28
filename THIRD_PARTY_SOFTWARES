@@ -1,0 +1,4 @@
+This repository makes use of the following libraries/modules:
+
+EfficientDet-PyTorch (https://github.com/rwightman/efficientdet-pytorch) licensed under Apache 2.0, Copyright Ross Wightman, License: efficientdet/LICENSE-old
+
