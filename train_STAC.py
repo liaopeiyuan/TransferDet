@@ -67,7 +67,7 @@ for fold_number, (train_index, val_index) in enumerate(skf.split(X=df_folds.inde
 
 TARGETS = ['arvalis_1', 'arvalis_2', 'arvalis_3', 'inrae_1', 'usask_1', 'rres_1', 'ethz_1']
 
-DATA_ROOT = '/lustre/C/liaopeiyuan/wheat-effdet-ssl/data/'
+DATA_ROOT = './' #Replace with desired data root
 
 csvs = []
 for t in TARGETS:
