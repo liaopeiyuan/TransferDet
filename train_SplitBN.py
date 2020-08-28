@@ -148,7 +148,7 @@ def get_train_transforms():
 def get_big_transforms():
     return A.Compose(
         [
-            A.RandomSizedCrop(min_max_height=(640, 2048), height=1024, width=1024, p=1),
+            A.RandomSizedCrop(min_max_height=(640, 2048), height=1024, width=1024, p=0.5),
             A.OneOf([
                 A.HueSaturationValue(hue_shift_limit=0.2, sat_shift_limit= 0.2, 
                                      val_shift_limit=0.2, p=0.9),
@@ -182,7 +182,7 @@ def get_big_transforms():
 def get_pseudo_transforms():
     return A.Compose(
         [
-            A.RandomSizedCrop(min_max_height=(640, 1024), height=1024, width=1024, p=1),
+            A.RandomSizedCrop(min_max_height=(640, 1024), height=1024, width=1024, p=0.5),
             A.OneOf([
                 A.HueSaturationValue(hue_shift_limit=0.2, sat_shift_limit= 0.2, 
                                      val_shift_limit=0.2, p=0.9),
