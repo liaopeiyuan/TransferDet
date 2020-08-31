@@ -10,6 +10,10 @@ Solution Journal: https://www.kaggle.com/c/global-wheat-detection/discussion/175
 
 Submission Notebook: https://www.kaggle.com/alexanderliao/effdet-d6-pl-s-bn-r-bb-a3-usa-eval-94-13-db?scriptVersionId=40133294
 
+Pre-processed Jigsaw Data: https://www.kaggle.com/alexanderliao/wheatfullsize
+
+Pseudo-labelled SPIKE Dataset: https://www.kaggle.com/alexanderliao/wheatspike
+
 Private/Public mAP [0.5:0.75:0.05] : 0.6879/0.7700
 
 Steps to reproduce leaderboard performance:
