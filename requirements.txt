@@ -104,7 +104,7 @@ newspaper3k==0.2.8
 nltk==3.4.5
 notebook==6.4.10
 numba==0.48.0
-numpy==1.18.1
+numpy==1.21.0
 oauthlib==3.1.0
 olefile==0.46
 omegaconf==2.0.0

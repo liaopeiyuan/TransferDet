@@ -8,7 +8,7 @@ pyyaml
 Pillow
 
 # conflict between pycocotools and numpy 1.18.+
-numpy<=1.17.5
+numpy<1.21.1
 
 # pycocotools needs this but doesn't have dep
 matplotlib
