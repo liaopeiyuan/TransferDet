@@ -101,7 +101,7 @@ nbformat==5.0.4
 netron==4.3.9
 networkx==2.4
 newspaper3k==0.2.8
-nltk==3.4.5
+nltk==3.6.6
 notebook==6.4.12
 numba==0.48.0
 numpy==1.22.0
